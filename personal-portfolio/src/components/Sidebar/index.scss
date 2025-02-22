@@ -31,7 +31,7 @@ nav{
 
     a{
         font-size: 22px;
-        color: #6c4763;
+        color: #084f6b;
         display: block;
         line-height: 51px;
         height: 51px;
@@ -44,7 +44,7 @@ nav{
         }
 
         &:hover{
-            color:#713f5c;
+            color:#52196c;
 
             svg{
                 opacity: 0;
@@ -93,7 +93,7 @@ nav{
     }
     a.active{
         svg{
-            color: #93153d;
+            color: #b23cf6;
         }
     }
 
@@ -120,7 +120,7 @@ ul{
 
 
             &:hover svg{
-                color: aqua;
+                color: #b23cf6;
             }
         }
     }
