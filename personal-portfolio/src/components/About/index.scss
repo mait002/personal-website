@@ -1,0 +1,35 @@
+.about-page{
+    
+
+    .text-zone{
+        
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        max-height: 90%;
+        color: antiquewhite;
+        text-align: center;
+        padding-left: 120px;
+    }
+
+    h1{
+        color: rgb(251, 248, 251);
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        
+    }
+    p{
+        color: aliceblue;
+        font-size: 20px;
+    }
+    img{
+        position: relative;
+        left: 30%;
+        width: 300px;
+        height: 300px;
+    }
+}
