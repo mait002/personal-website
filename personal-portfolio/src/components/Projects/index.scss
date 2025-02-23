@@ -1,0 +1,87 @@
+.projects-page {
+    max-height: 100vh; 
+    overflow-y: auto;  
+    padding: 20px;
+  
+    
+  
+    .album {
+        max-height: 80vh; 
+        overflow-y: auto;
+    }
+  
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+  
+    .row {
+      justify-content: center;
+    }
+  }
+
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #ed9eac;
+    width: 500px;
+    height: auto;
+    border: 1px solid #f1e8e9;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+  
+    .card-img-top {
+      height: 225px;
+      object-fit: cover; // Ensures images fit properly without distortion
+    }
+  
+    .card-body {
+      padding: 20px;
+      text-align: left;
+  
+      h5 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #131313;
+      }
+  
+      a {
+        color: #354c65;
+        font-weight: bold;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .text-body-secondary{
+        color: #460909;
+        font-size: 20px;
+      }
+  
+      .btn-group {
+        display: flex;
+        justify-content: center;
+  
+        .btn {
+          background-color: #c73560;
+          color: white;
+          border-radius: 5px;
+          padding: 5px 10px;
+          font-size: 0.9rem;
+          transition: background 0.3s;
+  
+          &:hover {
+            background-color: #ecaece;
+          }
+        }
+      }
+    }
+  }
+
+  
+  

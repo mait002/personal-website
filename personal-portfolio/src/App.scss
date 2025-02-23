@@ -24,3 +24,8 @@ textarea {
   font-family: 'Helvetica Neue';
 
 }
+
+html, body {
+  height: 100%;
+  overflow-y: auto; /* Ensures scrolling is enabled */
+}
